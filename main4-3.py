@@ -8,6 +8,7 @@ with open(file_path, 'rt', encoding='UTF8') as f :
         line = line.strip()
         print(line)
         
+        # 읽어온 데이터로 qr코드를 생성한 다음 저장한다.
         qr_data = line
         qr_img = qrcode.make(qr_data)
         

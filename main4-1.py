@@ -1,4 +1,4 @@
-import qrcode # 01. 라이브러리를 불러옵니다.
+import qrcode # 01. 라이브러리를 불러온다.
 
 qr_data = 'www.naver.com' #qr_data 변수에 'www.naver.com' 문자열을 바인딩한다.
 qr_img = qrcode.make(qr_data) #qrcode.make로 이미지를 만들어 qr_img 변수에 바인딩한다.
